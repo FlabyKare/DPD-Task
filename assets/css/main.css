@@ -1,0 +1,248 @@
+html {
+  /* HTML5 display-role reset for older browsers */
+}
+html *::-moz-selection {
+  background-color: #e31335;
+  color: #fff;
+}
+html *::selection {
+  background-color: #e31335;
+  color: #fff;
+}
+html html,
+html body,
+html div,
+html span,
+html applet,
+html object,
+html iframe,
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6,
+html p,
+html blockquote,
+html pre,
+html a,
+html abbr,
+html acronym,
+html address,
+html big,
+html cite,
+html code,
+html del,
+html dfn,
+html em,
+html img,
+html ins,
+html kbd,
+html q,
+html s,
+html samp,
+html small,
+html strike,
+html strong,
+html sub,
+html sup,
+html tt,
+html var,
+html b,
+html u,
+html i,
+html center,
+html dl,
+html dt,
+html dd,
+html ol,
+html ul,
+html li,
+html fieldset,
+html form,
+html label,
+html legend,
+html table,
+html caption,
+html tbody,
+html tfoot,
+html thead,
+html tr,
+html th,
+html td,
+html article,
+html aside,
+html canvas,
+html details,
+html embed,
+html figure,
+html figcaption,
+html footer,
+html header,
+html hgroup,
+html menu,
+html nav,
+html output,
+html ruby,
+html section,
+html summary,
+html time,
+html mark,
+html audio,
+html video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html article,
+html aside,
+html details,
+html figcaption,
+html figure,
+html footer,
+html header,
+html hgroup,
+html menu,
+html nav,
+html section {
+  display: block;
+}
+html ol,
+html ul {
+  list-style: none;
+}
+html blockquote,
+html q {
+  quotes: none;
+}
+html blockquote:before,
+html blockquote:after,
+html q:before,
+html q:after {
+  content: "";
+  content: none;
+}
+html table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+button,
+input[type=button],
+input[type=submit],
+input[type=reset] {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  resize: none;
+}
+input:focus {
+  outline: none;
+}
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+input:focus::-moz-placeholder {
+  opacity: 0;
+}
+input:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+input:focus::-ms-input-placeholder {
+  opacity: 0;
+}
+input:focus::placeholder {
+  opacity: 0;
+}
+input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input::-webkit-input-placeholder {
+  color: inherit;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@font-face {
+  font-family: "NissanLight";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("~/assets/fonts/NissanBrand-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "NissanRegular";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("~/assets/fonts/NissanBrand-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "NissanBold";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("~/assets/fonts/NissanBrand-Bold.otf") format("opentype");
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.main__title::before {
+  content: "";
+  background: #c10933;
+  display: block;
+  width: 78px;
+  height: 4px;
+  margin-bottom: 16px;
+}

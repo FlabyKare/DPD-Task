@@ -1,0 +1,27 @@
+@font-face {
+   font-family: "NissanLight";
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+
+   src: url("~/assets/fonts/NissanBrand-Light.otf") format("opentype");
+}
+@font-face {
+   font-family: "NissanRegular";
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+
+   src: url("~/assets/fonts/NissanBrand-Regular.otf") format("opentype");
+}
+@font-face {
+   font-family: "NissanBold";
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+   src: url("~/assets/fonts/NissanBrand-Bold.otf") format("opentype");
+}
+
+$NissanLight: "NissanLight", sans-serif; // 300
+$NissanRegular: "NissanRegular", sans-serif; // 400
+$NissanBold: "NissanBold", sans-serif; // 700

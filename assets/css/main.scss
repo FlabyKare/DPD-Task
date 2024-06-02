@@ -1,0 +1,23 @@
+@import "_components";
+//! Общие стили
+.container {
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
+
+   padding: 20px;
+}
+
+//! Блок преимущества
+.main__title {
+   &::before {
+      content: "";
+      background: #c10933;
+
+      display: block;
+      width: 78px;
+      height: 4px;
+
+      margin-bottom: 16px;
+   }
+}
