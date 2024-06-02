@@ -19,6 +19,8 @@ const props = defineProps({
 .benefits__cards-item {
    max-width: 280px;
    padding: 16px;
+   margin: 0 auto;
+
    img {
       width: 180px;
       max-height: 100px;
@@ -36,6 +38,7 @@ const props = defineProps({
    p {
       text-align: center;
       text-transform: uppercase;
+      cursor: default;
    }
 
    .benefits__cards-item__title {
@@ -51,19 +54,28 @@ const props = defineProps({
    }
 }
 
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 1199.98px) {
    .benefits__cards-item {
       &.desktop {
+         display: none;
+      }
+      * {
+         cursor: pointer !important;
+      }
+   }
+}
+
+@media screen and (min-width: 1200px) {
+   .benefits__cards-item {
+      &.mobile {
          display: none;
       }
    }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 575.98px) {
    .benefits__cards-item {
-      &.mobile {
-         display: none;
-      }
+      max-width: 80%;
    }
 }
 </style>

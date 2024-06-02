@@ -20,6 +20,9 @@
   },
   "devDependencies": {
     "@pinia-plugin-persistedstate/nuxt": "^1.2.0",
-    "sass": "^1.77.4"
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.13.0",
+    "sass": "^1.77.4",
+    "typescript": "^5.4.5"
   }
 }

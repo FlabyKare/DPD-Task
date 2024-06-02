@@ -30,6 +30,11 @@ h1 {
    font-size: 48px;
    line-height: 64px;
    text-transform: uppercase;
+
+   @media screen and (max-width: 575.98px) {
+      font-size: 36px;
+      line-height: 48px;
+   }
 }
 
 h2 {

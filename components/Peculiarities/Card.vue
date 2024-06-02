@@ -1,11 +1,7 @@
 <template>
-   <li class="footer__list-item">
+   <li class="footer__list-item" :class="`${cardClass}`">
       <div class="footer__list-item__img-wrapper">
-         <NuxtImg
-            :src="`${cardImage}`"
-            loading="lazy"
-            alt="нестационарный гироскопический стабилизатор"
-         />
+         <NuxtImg :src="`${cardImage}`" loading="lazy" :alt="`${altText}`" />
       </div>
 
       <p class="footer__list-item__text">{{ cardText }}</p>
@@ -18,15 +14,21 @@ const props = defineProps({
       type: String,
       required: true,
    },
+   altText: {
+      type: String,
+      required: true,
+   },
 
    cardText: {
       type: String,
       required: true,
    },
+
+   cardClass: String,
 });
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .footer__list-item {
    @media screen and (min-width: 992px) {
       width: auto;
@@ -60,11 +62,16 @@ const props = defineProps({
       font-family: $NissanLight;
       font-size: 16px;
       line-height: 25.6px;
-      cursor: pointer;
+      cursor: default;
    }
 
    @media screen and (max-width: 991.98px) {
       width: 100%;
    }
+}
+
+.footer__list-item--add_0,
+.footer__list-item--add_3 {
+   order: -1;
 }
 </style>

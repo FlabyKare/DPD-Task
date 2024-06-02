@@ -58,5 +58,24 @@
          fill: #fff;
       }
    }
+
+   @media screen and (min-width: 576px) and (max-width: 991.98px) {
+      height: 60px;
+      width: 100%;
+      max-width: 70%;
+
+      transform: translate(-50%, -50%);
+      top: 85%;
+      left: 50%;
+   }
+   @media screen and (max-width: 575.98px) {
+      width: 100%;
+      max-width: 70%;
+      height: 40px;
+
+      transform: translate(-50%, -50%);
+      top: 85%;
+      left: 50%;
+   }
 }
 </style>
