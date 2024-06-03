@@ -1,75 +1,13 @@
-# Nuxt 3 Minimal Starter
+# Запуск проекта локально
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+1) Скачайте арихв проекта
+2) Создайте папку с названием DPD-Task у себя на ПК
+3) Поместите все файлы из скаченного архива в эту папку
+4) Запустите терминал в контексте этой папки
+5) Выполните команду "npm install" для установки всех необходимых зависимостей ( node_modules )
+6) После завершения установки зависимостей => Ввести команду "npm run dev" - для запуска проекта
+7) Перейдите по адресу из терминала, для просмотра проекта
+    
+# Просмотр уже развёрнутой версии проекта
 
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+1) Перейдите по адресу - https://dpd-task.vercel.app/
