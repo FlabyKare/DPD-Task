@@ -1,5 +1,5 @@
 <template>
-   <section class="main__desktop-slider" key="main__desktop-slider">
+   <section class="benefits__cards main__slider-desktop" key="main__slider-desktop">
       <BenefitsCard
          :cardImage="`/img/icons/Benefit.png`"
          :cardTitle="`Выгода`"
@@ -30,7 +30,7 @@
 <script setup></script>
 
 <style lang="scss" scoped>
-.main__desktop-slider {
+.main__slider-desktop {
    display: contents;
    @media screen and (max-width: 1199.98px) {
       display: none;

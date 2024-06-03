@@ -6,10 +6,7 @@
 
 <script setup>
 const props = defineProps({
-   btnClass: {
-      type: String,
-      required: true,
-   },
+   btnClass: String,
 });
 </script>
 

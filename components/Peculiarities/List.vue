@@ -22,7 +22,10 @@
       />
    </ul>
 
-   <UIButton @click="addCard()" key="Peculiarities-button"
+   <UIButton
+      :btnClass="`footer__list-btn`"
+      @click="addCard()"
+      key="Peculiarities-button"
       >Добавить особенность</UIButton
    >
 </template>

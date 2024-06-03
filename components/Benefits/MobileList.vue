@@ -1,5 +1,8 @@
 <template>
-   <section class="main__mobile-slider">
+   <section
+      class="benefits__cards main__slider-mobile"
+      key="main__slider-mobile"
+   >
       <Swiper
          class="mySwiper"
          :loop="false"
@@ -59,7 +62,7 @@ const breakpoints = ref({
 </script>
 
 <style lang="scss">
-.main__mobile-slider {
+.main__slider-mobile {
    display: contents;
    @media screen and (min-width: 1199.98px) {
       display: none;
@@ -68,6 +71,18 @@ const breakpoints = ref({
    .swiper-button-next {
       transition: 0.25s ease-in-out;
       color: #c31631;
+   }
+
+   .swiper-button-prev {
+      &.swiper-button-disabled {
+         left: -100px;
+      }
+   }
+
+   .swiper-button-next {
+      &.swiper-button-disabled {
+         right: -100px;
+      }
    }
    @media screen and (min-width: 992px) and (max-width: 1199.98px) {
       &:not(:hover) {
